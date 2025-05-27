@@ -11,6 +11,7 @@ A modern ecommerce dashboard built with **Nuxt 3**, **Vue 3**, **TailwindCSS**, 
 - **Source Code (Public Repository):** [GitHub - https://github.com/Tayyab971/forsit-ecommerce-admin-dashboard.git](https://github.com/Tayyab971/forsit-ecommerce-admin-dashboard.git)
 - **Live Demo :** [https://forsit-ecommerce-admin-dashboard-five.vercel.app/](https://forsit-ecommerce-admin-dashboard-five.vercel.app/)
 
+
 ---
 
 ## 📋 Features
