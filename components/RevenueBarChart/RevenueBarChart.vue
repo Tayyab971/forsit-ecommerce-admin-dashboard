@@ -39,7 +39,7 @@ const categories = await getCategories()
 const selectedCategory = ref(categories[0])
 const timeRange = ref("90d")
 
-// Generate mock chart data with categories
+
 const chartDataRaw = categories.flatMap(category => {
     const dates = [
         "2025-04-01", "2025-05-16", "2025-05-12", "2025-05-04", "2025-05-07",
@@ -50,7 +50,7 @@ const chartDataRaw = categories.flatMap(category => {
     return dates.map(date => ({
         date,
         category,
-        revenue: Math.floor(Math.random() * 500) + 100 
+        revenue: Math.floor(Math.random() * 500) + 100
     })).sort((a, b) => new Date(a.date).getTime() - new Date(b.date).getTime())
 })
 

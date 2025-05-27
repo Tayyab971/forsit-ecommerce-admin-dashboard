@@ -25,11 +25,11 @@ export const addUpdateProduct = async (product: any) => {
     const { id, ...rest } = product;
     try {
         if (id) {
-            // Update existing product
+
             const productRef = doc(firestore, "products", id);
             await updateDoc(productRef, rest);
         } else {
-            // Add new product
+
             const colRef = collection(firestore, "products");
             await addDoc(colRef, rest);
         }

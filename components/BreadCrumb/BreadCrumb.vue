@@ -13,7 +13,7 @@ import {
 
 const route = useRoute()
 
-// Utility: format route segment to readable text, e.g. "all-products" → "All Products"
+
 function formatSegment(segment: string) {
     return segment
         .replace(/-/g, ' ')

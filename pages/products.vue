@@ -27,7 +27,7 @@ async function handleSave(product: any) {
         const success = await addUpdateProduct(product)
         if (success) {
             showAddModal.value = false
-            const products = await fetchProducts() // refresh products or update state
+            const products = await fetchProducts()
             productLength.value = products.length
         } else {
             alert('Failed to save product')

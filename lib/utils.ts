@@ -10,7 +10,7 @@ export function cn(...inputs: ClassValue[]) {
 }
 
 
-// This function turns the number into the Currency format
+
 export function formatCurrency(amount?: number, currency = 'USD', locale = 'en-US'): string {
   if (typeof amount !== 'number') return '$0.00'
 
@@ -25,7 +25,7 @@ export function formatCurrency(amount?: number, currency = 'USD', locale = 'en-U
 export function parseCurrency(value: string): number {
   if (!value) return 0
 
-  // Remove anything that's not a digit, decimal, or minus
+
   const cleaned = value.replace(/[^0-9.-]+/g, '')
   const parsed = parseFloat(cleaned)
 

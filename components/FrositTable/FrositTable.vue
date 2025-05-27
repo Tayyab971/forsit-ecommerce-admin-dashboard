@@ -157,7 +157,7 @@
                                             </template>
                                         </TableCell>
 
-                                        <!-- Actions Column -->
+
                                         <TableCell>
                                             <DropdownMenu>
                                                 <DropdownMenuTrigger as-child>
