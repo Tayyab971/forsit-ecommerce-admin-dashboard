@@ -1,75 +1,35 @@
-# Nuxt Minimal Starter
+# Frosit Ecommerce Dashboard
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+A modern ecommerce dashboard built with **Nuxt 3**, **Vue 3**, **TailwindCSS**, **TypeScript**, and **Firebase** for realtime data handling and CRUD operations.
 
-## Setup
+[![Built with](https://skillicons.dev/icons?i=nuxtjs,ts,vue,tailwind,css,firebase)](https://skillicons.dev)
 
-Make sure to install dependencies:
+---
+
+## 🌐 Live Project & Repository
+
+- **Source Code (Public Repository):** [GitHub - https://github.com/Tayyab971/forsit-ecommerce-admin-dashboard.git](https://github.com/Tayyab971/forsit-ecommerce-admin-dashboard.git)
+- **Live Demo (if deployed):** [https://forsit-ecommerce-admin-dashboard-five.vercel.app/](https://forsit-ecommerce-admin-dashboard-five.vercel.app/)
+
+---
+
+## 📋 Features
+
+- Product listing with filtering
+- Product add/edit/delete
+- Inventory status indicators
+- Revenue stats by day/week/month/year
+- Firebase Firestore integration for backend
+- ShadCN UI components
+- Responsive and clean UI with Tailwind CSS
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the repo
 
 ```bash
-# npm
-npm install
-
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
+git clone https://github.com/Tayyab971/forsit-ecommerce-admin-dashboard.git
+cd forsit-ecommerce-admin-dashboard
 npm run dev
-
-# pnpm
-pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
